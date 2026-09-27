@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rendir — mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0D1F1C;
+    --card: #16302B;
+    --card-alt: #122622;
+    --gold: #E8A33D;
+    --sage: #4C7A6B;
+    --bone: #EDEAE0;
+    --bone-dim: #A9B5AD;
+    --line: #2A3B37;
+    --red: #C0645A;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--bone);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+  .mono { font-family: 'JetBrains Mono', monospace; }
+
+  .intro { max-width: 640px; text-align: left; margin-bottom: 8px; }
+  .intro h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 6px; }
+  .intro p { color: var(--bone-dim); font-size: 0.95rem; line-height: 1.5; }
+
+  .top-logo { margin-bottom: 4px; }
+
+  .tabs { display: flex; gap: 8px; background: var(--card-alt); padding: 4px; border-radius: 8px; margin-bottom: 4px; }
+  .tab {
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: var(--bone-dim);
+    border: none;
+    background: transparent;
+    font-family: inherit;
+    transition: background 0.15s, color 0.15s;
+  }
+  .tab.active { background: var(--sage); color: var(--bone); }
+
+  .phone {
+    width: 360px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+  }
+  .screen { display: none; flex-direction: column; min-height: 640px; }
+  .screen.active { display: flex; }
+
+  .topbar {
+    padding: 18px 18px 14px;
+    border-bottom: 1px solid var(--line);
+  }
+  .topbar .title { font-size: 1.15rem; font-weight: 700; margin-top: 10px; }
+  .topbar .updated { font-size: 0.72rem; color: var(--sage); margin-top: 6px; }
+  .updated::before { content: "● "; }
+
+  .logo-mark { display: block; }
+
+  .currency-toggle {
+    display: flex;
+    gap: 6px;
+    padding: 12px 18px;
+    border-bottom: 1px solid var(--line);
+  }
+  .chip {
+    font-size: 0.75rem;
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 1px solid var(--line);
+    color: var(--bone-dim);
+    cursor: pointer;
+  }
+  .chip.active { border-color: var(--gold); color: var(--gold); }
+
+  .rows { flex: 1; overflow-y: auto; }
+  .section-label {
+    font-size: 0.65rem;
+    color: var(--sage);
+    letter-spacing: 0.05em;
+    padding: 10px 18px 6px;
+    background: var(--card-alt);
+  }
+  .row { cursor: pointer; transition: background 0.12s; }
+  .row:hover { background: rgba(232,163,61,0.05); }
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--line);
+  }
+  .row:first-child { background: rgba(232,163,61,0.08); }
+  .rank { width: 22px; font-size: 0.8rem; color: var(--bone-dim); }
+  .row:first-child .rank { color: var(--gold); font-weight: 700; }
+  .wallet-name { flex: 1; font-size: 0.92rem; font-weight: 500; }
+  .wallet-usd { font-size: 0.68rem; color: var(--bone-dim); margin-top: 2px; }
+  .rate { font-size: 1.05rem; font-weight: 700; text-align: right; }
+  .row:first-child .rate { color: var(--gold); }
+
+  /* Detail screen */
+  .detail-header { padding: 18px; border-bottom: 1px solid var(--line); }
+  .detail-header .back { font-size: 0.75rem; color: var(--sage); margin-bottom: 10px; cursor: pointer; }
+  .detail-header .name { font-size: 1.3rem; font-weight: 700; }
+  .detail-header .big-rate { font-size: 2.4rem; font-weight: 700; color: var(--gold); margin-top: 8px; }
+  .detail-header .big-rate span { font-size: 0.9rem; color: var(--bone-dim); font-weight: 400; }
+  .chart-box {
+    margin: 16px 18px;
+    height: 120px;
+    background: var(--card-alt);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); margin: 0 18px 18px; border-radius: 8px; overflow: hidden; }
+  .stat { background: var(--card-alt); padding: 12px 14px; }
+  .stat .k { font-size: 0.65rem; color: var(--bone-dim); }
+  .stat .v { font-size: 1rem; font-weight: 700; margin-top: 3px; }
+
+  .footnote { max-width: 500px; font-size: 0.75rem; color: var(--bone-dim); text-align: center; line-height: 1.5; }
+
+  /* Vista web (desktop) */
+  .webpage {
+    display: none;
+    width: 100%;
+    max-width: 760px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .web-hero {
+    padding: 32px 32px 20px;
+    border-bottom: 1px solid var(--line);
+  }
+  .web-hero h2 { font-size: 1.9rem; font-weight: 700; margin: 10px 0 8px; }
+  .web-updated { font-size: 0.75rem; color: var(--bone-dim); }
+  .web-updated::before { content: "● "; color: var(--sage); }
+
+  .web-currency-toggle { padding: 12px 32px; border-bottom: 1px solid var(--line); }
+
+  .web-table { width: 100%; border-collapse: collapse; }
+  .web-table th {
+    text-align: left;
+    font-size: 0.68rem;
+    font-weight: 500;
+    color: var(--bone-dim);
+    padding: 12px 32px;
+    border-bottom: 1px solid var(--line);
+  }
+  .web-table td {
+    padding: 14px 32px;
+    border-bottom: 1px solid var(--line);
+    font-size: 0.92rem;
+  }
+  .web-table tr.best { background: rgba(232,163,61,0.08); }
+  .web-table tr.best .rate-cell { color: var(--gold); }
+  .web-table .dim { color: var(--bone-dim); font-size: 0.85rem; }
+  .web-table .rate-cell { font-weight: 700; font-size: 1rem; }
+  .web-table tr:last-child td { border-bottom: none; }
+  .wip-ribbon {
+    position: absolute;
+    top: 16px;
+    right: -34px;
+    background: var(--card-alt);
+    color: var(--bone-dim);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.58rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    padding: 3px 38px;
+    transform: rotate(35deg);
+    text-align: center;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    pointer-events: none;
+  }
+  .web-section-label {
+    font-size: 0.7rem;
+    color: var(--sage);
+    letter-spacing: 0.05em;
+    padding: 18px 32px 8px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="top-logo">
+    <svg width="200" height="40" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rendir">
+      <polyline points="2,33 14,21 24,25 38,6" fill="none" stroke="#E8A33D" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="48" y="29" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="25" letter-spacing="0.8" fill="#EDEAE0">RENDIR</text>
+    </svg>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" data-screen="ranking">Ranking</button>
+    <button class="tab" data-screen="dolar">Dólar oficial</button>
+    <button class="tab" data-screen="web">Vista web</button>
+  </div>
+
+  <div class="phone" id="phone-frame">
+
+    <!-- PANTALLA 1: RANKING -->
+    <div class="screen active" id="ranking">
+      <div class="topbar">
+        <svg class="logo-mark" width="92" height="18" viewBox="0 0 92 18" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rendir">
+          <polyline points="1,15 6,10 11,12 17,3" fill="none" stroke="#E8A33D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="22" y="14" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="12" letter-spacing="0.5" fill="#EDEAE0">RENDIR</text>
+        </svg>
+        <div class="title">Ranking de tasas</div>
+        <div class="updated mono" id="ranking-updated">Datos reales del 20/09/2026 — BCRA + CAFCI</div>
+      </div>
+      <div class="currency-toggle" id="ranking-currency-toggle">
+        <div class="chip active" data-currency="ars">$</div>
+        <div class="chip" data-currency="usd">USD</div>
+      </div>
+      <div class="rows" id="ranking-ars-block">
+        <div class="section-label mono">BILLETERAS</div>
+        <div id="rows-billeteras"></div>
+
+        <div class="section-label mono">PLAZO FIJO BANCOS</div>
+        <div id="rows-bancos"></div>
+      </div>
+      <div class="rows" id="ranking-usd-block" style="display:none; position:relative; overflow:hidden;">
+        <div class="wip-ribbon mono">EN CONSTRUCCIÓN</div>
+        <div class="section-label mono">TASAS EN USD</div>
+        <div id="rows-usd"></div>
+      </div>
+    </div>
+
+    <!-- PANTALLA 2: DETALLE (se llega tocando una fila, no tiene tab propio) -->
+    <div class="screen" id="detalle">
+      <div class="detail-header">
+        <div class="back mono" onclick="goToTab('ranking')">&larr; volver al ranking</div>
+        <div class="name" id="detail-name">Cocos</div>
+        <div class="big-rate mono" id="detail-rate">20.64%<span> TNA</span></div>
+      </div>
+      <div class="chart-box"></div>
+      <div class="stat-grid">
+        <div class="stat"><div class="k mono">PRODUCTO</div><div class="v" id="detail-product" style="font-size:0.82rem;">FCI Renta Mixta</div></div>
+        <div class="stat"><div class="k mono">FUENTE</div><div class="v" id="detail-fuente" style="font-size:0.82rem;">CAFCI</div></div>
+        <div class="stat"><div class="k mono">ACTUALIZADO</div><div class="v" id="detail-fecha" style="font-size:0.82rem;">-</div></div>
+        <div class="stat"><div class="k mono">CÓMO SE CALCULA</div><div class="v" id="detail-calculo" style="font-size:0.72rem; line-height:1.4; font-weight:400;">-</div></div>
+      </div>
+    </div>
+
+    <!-- PANTALLA 3: DÓLAR OFICIAL -->
+    <div class="screen" id="dolar">
+      <div class="topbar">
+        <svg class="logo-mark" width="92" height="18" viewBox="0 0 92 18" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rendir">
+          <polyline points="1,15 6,10 11,12 17,3" fill="none" stroke="#E8A33D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="22" y="14" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="12" letter-spacing="0.5" fill="#EDEAE0">RENDIR</text>
+        </svg>
+        <div class="title">Dólar oficial — venta</div>
+        <div class="updated mono" id="dolar-updated">Datos reales — dolarapi.com</div>
+      </div>
+      <div style="padding:16px 18px; border-bottom:1px solid var(--line);">
+        <div class="mono" style="font-size:0.62rem; color:var(--bone-dim); letter-spacing:0.05em;">COTIZACIÓN GENERAL</div>
+        <div class="mono" id="dolar-oficial-venta" style="font-size:1.9rem; font-weight:700; color:var(--gold); margin-top:2px;">$1.535</div>
+        <div class="mono" id="dolar-fecha-detalle" style="font-size:0.68rem; color:var(--bone-dim); margin-top:4px;">Actualizado: -</div>
+      </div>
+      <div class="rows">
+        <div class="section-label mono" id="dolar-entidades-label">POR ENTIDAD — comparadolar.ar</div>
+        <div id="rows-dolar-entidades"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="webpage" id="webpage">
+    <header class="web-hero">
+      <svg class="logo-mark" width="130" height="26" viewBox="0 0 130 26" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rendir">
+        <polyline points="1,22 9,14 16,17 25,4" fill="none" stroke="#E8A33D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="32" y="20" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="17" letter-spacing="0.6" fill="#EDEAE0">RENDIR</text>
+      </svg>
+      <h2>¿Quién paga más hoy?</h2>
+      <div class="web-updated mono" id="web-updated">Datos reales del 20/09/2026 — BCRA + CAFCI</div>
+    </header>
+
+    <div class="currency-toggle web-currency-toggle" id="web-currency-toggle">
+      <div class="chip active" data-currency="ars">$</div>
+      <div class="chip" data-currency="usd">USD</div>
+    </div>
+
+    <div id="web-ars-block">
+      <div class="web-section-label mono">BILLETERAS</div>
+      <table class="web-table">
+        <thead>
+          <tr>
+            <th class="mono">#</th>
+            <th>Billetera</th>
+            <th>Producto</th>
+            <th class="mono">TNA</th>
+          </tr>
+        </thead>
+        <tbody id="web-rows-billeteras"></tbody>
+      </table>
+      <div class="web-section-label mono">PLAZO FIJO BANCOS</div>
+      <table class="web-table">
+        <thead>
+          <tr>
+            <th class="mono">#</th>
+            <th>Banco</th>
+            <th>Producto</th>
+            <th class="mono">TEA</th>
+          </tr>
+        </thead>
+        <tbody id="web-rows-bancos"></tbody>
+      </table>
+    </div>
+
+    <div id="web-usd-block" style="display:none; position:relative; overflow:hidden;">
+      <div class="wip-ribbon mono">EN CONSTRUCCIÓN</div>
+      <div class="web-section-label mono">TASAS EN USD</div>
+      <table class="web-table">
+        <thead>
+          <tr>
+            <th class="mono">#</th>
+            <th>Entidad</th>
+            <th>Producto</th>
+            <th class="mono">Tasa</th>
+          </tr>
+        </thead>
+        <tbody id="web-rows-usd"></tbody>
+      </table>
+    </div>
+
+    <div class="web-section-label mono" id="web-dolar-entidades-label">DÓLAR OFICIAL — POR ENTIDAD — comparadolar.ar</div>
+    <table class="web-table">
+      <thead>
+        <tr>
+          <th class="mono">#</th>
+          <th>Entidad</th>
+          <th class="mono">Venta</th>
+        </tr>
+      </thead>
+      <tbody id="web-rows-dolar-entidades"></tbody>
+    </table>
+    <div style="padding: 6px 32px 28px; font-size:0.78rem; color:var(--bone-dim);">
+      Cotización general real: <span id="web-dolar-venta-general" class="mono" style="color:var(--gold); font-weight:700;">$1.535</span> (fuente: dolarapi.com). <span id="web-dolar-entidades-nota">El desglose por entidad de arriba es en vivo, vía comparadolar.ar.</span>
+    </div>
+  </div>
+
+  <div class="footnote">Billeteras y plazo fijo en listas separadas, cada una ordenada por tasa. Fuente: BCRA Régimen de Transparencia (plazo fijo), CAFCI (FCI money market), comparatasas.ar (cuentas remuneradas como Carrefour y Naranja X) y comparadolar.ar (dólar oficial por entidad).</div>
+
+  <!-- Datos reales generados por rendi_ranking.py (correr el script con
+       este archivo en la misma carpeta). Si no existe, la página sigue
+       funcionando con datos de ejemplo. -->
+  <script src="rendi_data.js"></script>
+
+  <script>
+    const tabs = document.querySelectorAll('.tab');
+    const screens = document.querySelectorAll('.screen');
+    const phoneFrame = document.getElementById('phone-frame');
+    const webpage = document.getElementById('webpage');
+
+    // Datos de ejemplo (se usan solo si no se encontró rendi_data.js).
+    const DATOS_EJEMPLO = {
+      actualizado: "20/09/2026",
+      billeteras: [
+        {nombre: "Lemon Cash", producto: "FCI Money Market", tna: 21.47},
+        {nombre: "Ualá", producto: "FCI Money Market", tna: 20.12},
+        {nombre: "Mercado Pago", producto: "FCI Money Market", tna: 19.93},
+        {nombre: "Personal Pay", producto: "FCI Money Market", tna: 19.85},
+        {nombre: "Cocos", producto: "FCI Money Market", tna: 18.88},
+      ],
+      bancos: [
+        {nombre: "Banco Hipotecario", producto: "Plazo fijo 30 días", tna: 24.36},
+        {nombre: "Banco Provincia", producto: "Plazo fijo 30 días", tna: 23.15},
+        {nombre: "Banco BBVA", producto: "Plazo fijo 30 días", tna: 21.34},
+        {nombre: "Banco Comafi", producto: "Plazo fijo 30 días", tna: 20.75},
+        {nombre: "Banco Nación", producto: "Plazo fijo 30 días", tna: 20.45},
+        {nombre: "Banco Credicoop", producto: "Plazo fijo 30 días", tna: 20.15},
+        {nombre: "Banco Supervielle", producto: "Plazo fijo 30 días", tna: 20.15},
+        {nombre: "Banco Macro", producto: "Plazo fijo 30 días", tna: 19.86},
+        {nombre: "Banco Ciudad", producto: "Plazo fijo 30 días", tna: 19.56},
+        {nombre: "Banco Galicia", producto: "Plazo fijo 30 días", tna: 18.98},
+      ],
+      dolar_oficial: {compra: 1485, venta: 1535, fecha: "20/09/2026"},
+    };
+
+    // Estas dos listas son SIEMPRE de ejemplo: el script todavía no genera
+    // tasas en USD ni el desglose de dólar por entidad (no hay fuente
+    // automática confiable para ninguna de las dos, ver footnote).
+    const EJEMPLO_USD = [
+      {nombre: "IOL Inversiones", producto: "MM Dólares", tna: 0},
+      {nombre: "Balanz", producto: "FCI USD", tna: 0},
+      {nombre: "Cocos Capital", producto: "MM Dólares", tna: 0},
+      {nombre: "Ualá", producto: "Caja USD", tna: 0},
+    ];
+    const EJEMPLO_DOLAR_ENTIDADES = [
+      {nombre: "Personal Pay", venta: 1042},
+      {nombre: "Ualá", venta: 1045},
+      {nombre: "Mercado Pago", venta: 1048},
+      {nombre: "Naranja X", venta: 1051},
+      {nombre: "Supervielle", venta: 1053},
+      {nombre: "BBVA", venta: 1055},
+      {nombre: "Galicia", venta: 1057},
+      {nombre: "Brubank", venta: 1060},
+    ];
+
+    const datosReales = typeof window.RENDI_DATA !== 'undefined';
+    const DATA = datosReales ? window.RENDI_DATA : DATOS_EJEMPLO;
+
+    function crearFilaMobile(item, rank) {
+      const div = document.createElement('div');
+      div.className = 'row';
+      const nombreEsc = item.nombre.replace(/'/g, "\\'");
+      const productoEsc = item.producto.replace(/'/g, "\\'");
+      div.setAttribute('onclick', `openDetail('${nombreEsc}','${productoEsc}','${item.tna}')`);
+      div.innerHTML = `
+        <div class="rank mono">${String(rank).padStart(2, '0')}</div>
+        <div class="wallet-name">${item.nombre}<div class="wallet-usd">${item.producto}</div></div>
+        <div class="rate mono">${item.tna.toFixed(2)}%</div>
+      `;
+      return div;
+    }
+
+    function crearFilaWeb(item, i) {
+      const tr = document.createElement('tr');
+      if (i === 0) tr.className = 'best';
+      tr.innerHTML = `
+        <td class="mono">${String(i + 1).padStart(2, '0')}</td>
+        <td>${item.nombre}</td>
+        <td class="dim">${item.producto}</td>
+        <td class="mono rate-cell">${item.tna.toFixed(2)}%</td>
+      `;
+      return tr;
+    }
+
+    function crearFilaDolarMobile(item, rank) {
+      const div = document.createElement('div');
+      div.className = 'row';
+      const nombreEsc = item.nombre.replace(/'/g, "\\'");
+      div.setAttribute('onclick', `openDetail('${nombreEsc}','Dólar oficial venta (comparadolar.ar)','${item.venta}')`);
+      div.innerHTML = `
+        <div class="rank mono">${String(rank).padStart(2, '0')}</div>
+        <div class="wallet-name">${item.nombre}</div>
+        <div class="rate mono">$${item.venta}</div>
+      `;
+      return div;
+    }
+
+    function crearFilaDolarWeb(item, i) {
+      const tr = document.createElement('tr');
+      if (i === 0) tr.className = 'best';
+      tr.innerHTML = `
+        <td class="mono">${String(i + 1).padStart(2, '0')}</td>
+        <td>${item.nombre}</td>
+        <td class="mono rate-cell">$${item.venta}</td>
+      `;
+      return tr;
+    }
+
+    function renderRanking() {
+      const contBilleteras = document.getElementById('rows-billeteras');
+      const contBancos = document.getElementById('rows-bancos');
+      contBilleteras.innerHTML = '';
+      DATA.billeteras.forEach((item, i) => contBilleteras.appendChild(crearFilaMobile(item, i + 1)));
+      contBancos.innerHTML = '';
+      DATA.bancos.forEach((item, i) => contBancos.appendChild(crearFilaMobile(item, i + 1)));
+
+      const webBilleteras = document.getElementById('web-rows-billeteras');
+      const webBancos = document.getElementById('web-rows-bancos');
+      webBilleteras.innerHTML = '';
+      DATA.billeteras.forEach((item, i) => webBilleteras.appendChild(crearFilaWeb(item, i)));
+      webBancos.innerHTML = '';
+      DATA.bancos.forEach((item, i) => webBancos.appendChild(crearFilaWeb(item, i)));
+
+      // USD (siempre ejemplo)
+      const rowsUsd = document.getElementById('rows-usd');
+      rowsUsd.innerHTML = '';
+      EJEMPLO_USD.forEach((item, i) => rowsUsd.appendChild(crearFilaMobile(item, i + 1)));
+      const webRowsUsd = document.getElementById('web-rows-usd');
+      webRowsUsd.innerHTML = '';
+      EJEMPLO_USD.forEach((item, i) => webRowsUsd.appendChild(crearFilaWeb(item, i)));
+
+      // Dólar por entidad (siempre ejemplo)
+      // Dólar por entidad: usamos el dato real (comparadolar.ar) si el
+      // script ya lo trajo; si no, mostramos el ejemplo.
+      const dolarEntidadesReal = DATA.dolar_entidades && DATA.dolar_entidades.length > 0;
+      const listaDolarEntidades = dolarEntidadesReal ? DATA.dolar_entidades : EJEMPLO_DOLAR_ENTIDADES;
+      const rowsDolarEnt = document.getElementById('rows-dolar-entidades');
+      rowsDolarEnt.innerHTML = '';
+      listaDolarEntidades.forEach((item, i) => rowsDolarEnt.appendChild(crearFilaDolarMobile(item, i + 1)));
+      const webRowsDolarEnt = document.getElementById('web-rows-dolar-entidades');
+      webRowsDolarEnt.innerHTML = '';
+      listaDolarEntidades.forEach((item, i) => webRowsDolarEnt.appendChild(crearFilaDolarWeb(item, i)));
+      const etiquetaDolarEnt = 'POR ENTIDAD — comparadolar.ar';
+      document.getElementById('dolar-entidades-label').textContent = etiquetaDolarEnt;
+      document.getElementById('web-dolar-entidades-label').textContent =
+        'DÓLAR OFICIAL — ' + etiquetaDolarEnt;
+      document.getElementById('web-dolar-entidades-nota').textContent =
+        'El desglose por entidad de arriba es en vivo, vía comparadolar.ar.';
+
+      const fuente = 'BCRA + CAFCI';
+      const updatedText = `Actualizado ${DATA.actualizado} — ${fuente}`;
+      document.getElementById('ranking-updated').textContent = updatedText;
+      document.getElementById('web-updated').textContent = updatedText;
+
+      if (DATA.dolar_oficial && DATA.dolar_oficial.venta) {
+        document.getElementById('dolar-oficial-venta').textContent = '$' + DATA.dolar_oficial.venta;
+        document.getElementById('web-dolar-venta-general').textContent = '$' + DATA.dolar_oficial.venta;
+        const dolarFuenteTexto = 'Venta oficial — dolarapi.com';
+        document.getElementById('dolar-updated').textContent = dolarFuenteTexto;
+        document.getElementById('dolar-fecha-detalle').textContent =
+          'Actualizado: ' + (DATA.dolar_oficial.fecha || DATA.actualizado);
+      }
+    }
+
+    renderRanking();
+
+    function wireCurrencyToggle(toggleId, arsBlockId, usdBlockId) {
+      const toggle = document.getElementById(toggleId);
+      if (!toggle) return;
+      const chips = toggle.querySelectorAll('.chip');
+      chips.forEach(chip => {
+        chip.addEventListener('click', () => {
+          chips.forEach(c => c.classList.remove('active'));
+          chip.classList.add('active');
+          const esArs = chip.dataset.currency === 'ars';
+          document.getElementById(arsBlockId).style.display = esArs ? '' : 'none';
+          document.getElementById(usdBlockId).style.display = esArs ? 'none' : '';
+        });
+      });
+    }
+    wireCurrencyToggle('ranking-currency-toggle', 'ranking-ars-block', 'ranking-usd-block');
+    wireCurrencyToggle('web-currency-toggle', 'web-ars-block', 'web-usd-block');
+
+    function goToTab(screenId) {
+      tabs.forEach(t => t.classList.remove('active'));
+      const matchingTab = Array.from(tabs).find(t => t.dataset.screen === screenId);
+      if (matchingTab) matchingTab.classList.add('active');
+      webpage.style.display = 'none';
+      phoneFrame.style.display = 'block';
+      screens.forEach(s => s.classList.remove('active'));
+      document.getElementById(screenId).classList.add('active');
+    }
+
+    // Deriva fuente y explicación del cálculo según el tipo de producto,
+    // a partir del texto que ya viaja en "product" (evita tener que pasar
+    // un parámetro extra en cada onclick).
+    function calcularInfoDetalle(product) {
+      if (product.indexOf('Dólar oficial') !== -1) {
+        return {
+          fuente: 'comparadolar.ar',
+          calculo: 'Cotización de venta informada en vivo por comparadolar.ar.',
+        };
+      }
+      if (product.indexOf('Cuenta remunerada') !== -1) {
+        return {
+          fuente: 'comparatasas.ar',
+          calculo: 'Tasa de cuenta remunerada informada en vivo por comparatasas.ar, con fecha de vigencia.',
+        };
+      }
+      if (product.indexOf('FCI') !== -1 || product.indexOf('Money Market') !== -1) {
+        return {
+          fuente: 'CAFCI (Cámara Argentina de Fondos Comunes de Inversión)',
+          calculo: 'TNA estimada a partir de la variación mensual del valor de la cuotaparte del fondo money market en el que invierte la billetera.',
+        };
+      }
+      if (product.indexOf('Plazo fijo') !== -1) {
+        return {
+          fuente: 'BCRA - Régimen de Transparencia',
+          calculo: 'Tasa efectiva anual (TEA) mínima informada por el banco para un plazo fijo a 30 días en pesos, tomada del padrón oficial del BCRA.',
+        };
+      }
+      return {
+        fuente: '(a confirmar)',
+        calculo: 'Estimación de referencia.',
+      };
+    }
+
+    function openDetail(name, product, rate) {
+      document.getElementById('detail-name').textContent = name;
+      const esDolar = product.indexOf('Dólar oficial') !== -1;
+      const rateDisplay = esDolar ? ('$' + rate) : (rate + '%');
+      const suffix = esDolar ? '' : ' TNA';
+      document.getElementById('detail-rate').innerHTML = rateDisplay + '<span>' + suffix + '</span>';
+      document.getElementById('detail-product').textContent = product;
+      const info = calcularInfoDetalle(product);
+      document.getElementById('detail-fuente').textContent = info.fuente;
+      document.getElementById('detail-fecha').textContent = DATA.actualizado;
+      document.getElementById('detail-calculo').textContent = info.calculo;
+      goToTab('detalle');
+    }
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        if (tab.dataset.screen === 'web') {
+          phoneFrame.style.display = 'none';
+          webpage.style.display = 'block';
+        } else {
+          webpage.style.display = 'none';
+          phoneFrame.style.display = 'block';
+          screens.forEach(s => s.classList.remove('active'));
+          document.getElementById(tab.dataset.screen).classList.add('active');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
