@@ -1,25 +1,7 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "24/09/2026 18:17",
+  "actualizado": "28/09/2026 21:34",
   "billeteras": [
-    {
-      "nombre": "Lemon Cash",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.51913043478261,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Claro Pay",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.70978260869565,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Ualá",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.23369565217391,
-      "tipo": "billetera"
-    },
     {
       "nombre": "Mi Carrefour",
       "producto": "Cuenta remunerada (via comparatasas.ar)",
@@ -30,24 +12,6 @@ window.RENDI_DATA = {
       "nombre": "Fiwind",
       "producto": "Cuenta remunerada (via comparatasas.ar)",
       "tna": 20.0,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Mercado Pago",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.97978260869565,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Personal Pay",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.821086956521743,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Cocos",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.011739130434783,
       "tipo": "billetera"
     },
     {
@@ -120,50 +84,50 @@ window.RENDI_DATA = {
     }
   ],
   "dolar_oficial": {
-    "compra": 1490,
-    "venta": 1540,
-    "fecha": "2026-09-24T18:00:00.000Z"
+    "compra": 1495,
+    "venta": 1545,
+    "fecha": "2026-09-28T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
-      "nombre": "Brubank Ultra",
-      "venta": 1530.0
-    },
-    {
-      "nombre": "Banco Hipotecario",
+      "nombre": "Voii",
       "venta": 1534.0
-    },
-    {
-      "nombre": "Balanz",
-      "venta": 1535.0
     },
     {
       "nombre": "Reba",
       "venta": 1535.0
     },
     {
+      "nombre": "Brubank Ultra",
+      "venta": 1536.0
+    },
+    {
       "nombre": "Ualá",
-      "venta": 1535.0
+      "venta": 1538.0
     },
     {
-      "nombre": "Banco Bica",
+      "nombre": "Balanz",
       "venta": 1540.0
     },
     {
-      "nombre": "Banco Ciudad",
-      "venta": 1540.0
+      "nombre": "Banco Hipotecario",
+      "venta": 1544.0
     },
     {
       "nombre": "Banco Nación",
-      "venta": 1540.0
-    },
-    {
-      "nombre": "Banco Provincia",
-      "venta": 1540.0
+      "venta": 1545.0
     },
     {
       "nombre": "Plus",
-      "venta": 1540.0
+      "venta": 1545.0
+    },
+    {
+      "nombre": "Tienda Dólar",
+      "venta": 1545.0
+    },
+    {
+      "nombre": "Banco Ciudad",
+      "venta": 1550.0
     }
   ]
 };
