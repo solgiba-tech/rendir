@@ -1,1 +1,37 @@
+name: Actualizar datos de Rendir
 
+on:
+  schedule:
+    - cron: '30 14 * * 1-5'
+    - cron: '0 19 * * 1-5'
+    - cron: '30 22 * * 1-5'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar el repo
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install pandas requests
+
+      - name: Correr el script
+        run: python rendi_ranking.py
+
+      - name: Subir rendi_data.js si cambió
+        run: |
+          git config user.name "Rendir bot"
+          git config user.email "actions@github.com"
+          git add rendi_data.js
+          git diff --cached --quiet || git commit -m "Actualizacion automatica de datos"
+          git push
