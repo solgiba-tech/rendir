@@ -48,7 +48,16 @@ import io
 import json
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
+
+# Hora de Argentina fija (UTC-3, sin horario de verano) - se usa siempre,
+# sin importar en qué huso horario esté corriendo el script (PC local o
+# el servidor en la nube de GitHub Actions, que corre en UTC).
+ARG_TZ = timezone(timedelta(hours=-3))
+
+
+def ahora_argentina() -> datetime:
+    return datetime.now(ARG_TZ)
 
 import pandas as pd
 import requests
@@ -628,7 +637,7 @@ def main():
                          help="Guarda el resultado en un archivo JSON")
     args = parser.parse_args()
 
-    print(f"Consultando fuentes... ({datetime.now().strftime('%Y-%m-%d %H:%M')})")
+    print(f"Consultando fuentes... ({ahora_argentina().strftime('%Y-%m-%d %H:%M')})")
 
     try:
         plazo_fijo_df = obtener_plazo_fijo(debug=args.debug)
@@ -691,7 +700,7 @@ def main():
 
     if args.json:
         salida = {
-            "actualizado": datetime.now().isoformat(),
+            "actualizado": ahora_argentina().isoformat(),
             "billeteras": resultado["billeteras"],
             "bancos": resultado["bancos"],
             "dolar_oficial": dolar_oficial,
@@ -708,7 +717,7 @@ def main():
     # con un <script src="rendi_data.js">, así que sirve abrir el archivo
     # directamente con doble clic.
     mockup_data = {
-        "actualizado": datetime.now().strftime("%d/%m/%Y %H:%M"),
+        "actualizado": ahora_argentina().strftime("%d/%m/%Y %H:%M"),
         "billeteras": resultado["billeteras"],
         "bancos": resultado["bancos"],
         "dolar_oficial": dolar_oficial,
