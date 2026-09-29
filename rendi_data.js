@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "28/09/2026 21:34",
+  "actualizado": "29/09/2026 02:12",
   "billeteras": [
     {
       "nombre": "Mi Carrefour",
@@ -94,12 +94,8 @@ window.RENDI_DATA = {
       "venta": 1534.0
     },
     {
-      "nombre": "Reba",
-      "venta": 1535.0
-    },
-    {
       "nombre": "Brubank Ultra",
-      "venta": 1536.0
+      "venta": 1535.0
     },
     {
       "nombre": "Ualá",
@@ -107,6 +103,10 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Balanz",
+      "venta": 1540.0
+    },
+    {
+      "nombre": "Reba",
       "venta": 1540.0
     },
     {
