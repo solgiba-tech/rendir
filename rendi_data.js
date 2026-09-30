@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "30/09/2026 16:31",
+  "actualizado": "30/09/2026 19:53",
   "billeteras": [
     {
       "nombre": "Lemon Cash",
@@ -122,20 +122,16 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1490,
     "venta": 1540,
-    "fecha": "2026-09-30T16:00:00.000Z"
+    "fecha": "2026-09-30T18:00:00.000Z"
   },
   "dolar_entidades": [
-    {
-      "nombre": "Brubank Ultra",
-      "venta": 1526.0
-    },
     {
       "nombre": "Voii",
       "venta": 1527.0
     },
     {
       "nombre": "Ualá",
-      "venta": 1530.0
+      "venta": 1532.0
     },
     {
       "nombre": "Banco Hipotecario",
@@ -143,14 +139,6 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Balanz",
-      "venta": 1535.0
-    },
-    {
-      "nombre": "Plus",
-      "venta": 1535.0
-    },
-    {
-      "nombre": "Tienda Dólar",
       "venta": 1535.0
     },
     {
@@ -163,6 +151,18 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Banco Provincia",
+      "venta": 1540.0
+    },
+    {
+      "nombre": "Brubank Ultra",
+      "venta": 1540.0
+    },
+    {
+      "nombre": "Plus",
+      "venta": 1540.0
+    },
+    {
+      "nombre": "Reba",
       "venta": 1540.0
     }
   ]
