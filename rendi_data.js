@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "01/10/2026 16:39",
+  "actualizado": "01/10/2026 20:02",
   "billeteras": [
     {
       "nombre": "Lemon Cash",
@@ -33,6 +33,12 @@ window.RENDI_DATA = {
       "tipo": "billetera"
     },
     {
+      "nombre": "Naranja X",
+      "producto": "Cuenta remunerada (via comparatasas.ar)",
+      "tna": 20.0,
+      "tipo": "billetera"
+    },
+    {
       "nombre": "Fiwind",
       "producto": "Cuenta remunerada (via comparatasas.ar)",
       "tna": 20.0,
@@ -48,12 +54,6 @@ window.RENDI_DATA = {
       "nombre": "Cocos",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
       "tna": 19.101666666666667,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Naranja X",
-      "producto": "Cuenta remunerada (via comparatasas.ar)",
-      "tna": 19.0,
       "tipo": "billetera"
     }
   ],
@@ -122,7 +122,7 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1495,
     "venta": 1545,
-    "fecha": "2026-10-01T16:00:00.000Z"
+    "fecha": "2026-10-01T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
@@ -134,10 +134,6 @@ window.RENDI_DATA = {
       "venta": 1530.0
     },
     {
-      "nombre": "Reba",
-      "venta": 1532.0
-    },
-    {
       "nombre": "Banco Hipotecario",
       "venta": 1534.0
     },
@@ -147,14 +143,10 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Ualá",
-      "venta": 1535.0
+      "venta": 1538.0
     },
     {
-      "nombre": "Plus",
-      "venta": 1540.0
-    },
-    {
-      "nombre": "Tienda Dólar",
+      "nombre": "Reba",
       "venta": 1540.0
     },
     {
@@ -163,6 +155,14 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Banco Nación",
+      "venta": 1545.0
+    },
+    {
+      "nombre": "Banco Provincia",
+      "venta": 1545.0
+    },
+    {
+      "nombre": "Plus",
       "venta": 1545.0
     }
   ]
