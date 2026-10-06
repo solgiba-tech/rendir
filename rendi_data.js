@@ -1,35 +1,29 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "05/10/2026 18:32",
+  "actualizado": "05/10/2026 21:41",
   "billeteras": [
     {
       "nombre": "Lemon Cash",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 22.447499999999998,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Ualá",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
       "tna": 21.9,
       "tipo": "billetera"
     },
     {
+      "nombre": "Ualá",
+      "producto": "FCI Money Market (TNA estimada, base mensual)",
+      "tna": 21.608,
+      "tipo": "billetera"
+    },
+    {
       "nombre": "Claro Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.805,
+      "tna": 20.367,
       "tipo": "billetera"
     },
     {
       "nombre": "Mercado Pago",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.622500000000002,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Personal Pay",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.2575,
+      "tna": 20.148000000000003,
       "tipo": "billetera"
     },
     {
@@ -51,9 +45,15 @@ window.RENDI_DATA = {
       "tipo": "billetera"
     },
     {
-      "nombre": "Cocos",
+      "nombre": "Personal Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
       "tna": 19.71,
+      "tipo": "billetera"
+    },
+    {
+      "nombre": "Cocos",
+      "producto": "FCI Money Market (TNA estimada, base mensual)",
+      "tna": 19.418,
       "tipo": "billetera"
     }
   ],
@@ -126,19 +126,15 @@ window.RENDI_DATA = {
   },
   "dolar_entidades": [
     {
-      "nombre": "Reba",
-      "venta": 1527.0
-    },
-    {
-      "nombre": "Voii",
-      "venta": 1527.0
-    },
-    {
       "nombre": "Balanz",
       "venta": 1530.0
     },
     {
       "nombre": "Brubank",
+      "venta": 1530.0
+    },
+    {
+      "nombre": "Voii",
       "venta": 1530.0
     },
     {
@@ -148,6 +144,10 @@ window.RENDI_DATA = {
     {
       "nombre": "Banco Hipotecario",
       "venta": 1534.0
+    },
+    {
+      "nombre": "Reba",
+      "venta": 1535.0
     },
     {
       "nombre": "Banco Ciudad",
