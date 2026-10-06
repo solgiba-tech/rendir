@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "05/10/2026 21:41",
+  "actualizado": "05/10/2026 23:26",
   "billeteras": [
     {
       "nombre": "Lemon Cash",
