@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "06/10/2026 19:56",
+  "actualizado": "06/10/2026 22:44",
   "billeteras": [
     {
       "nombre": "Lemon Cash",
@@ -11,19 +11,19 @@ window.RENDI_DATA = {
     {
       "nombre": "Ualá",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.608,
+      "tna": 21.474166666666665,
       "tipo": "billetera"
     },
     {
       "nombre": "Claro Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.367,
+      "tna": 20.318333333333335,
       "tipo": "billetera"
     },
     {
       "nombre": "Mercado Pago",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.148000000000003,
+      "tna": 20.075000000000003,
       "tipo": "billetera"
     },
     {
@@ -53,7 +53,7 @@ window.RENDI_DATA = {
     {
       "nombre": "Cocos",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.418,
+      "tna": 19.223333333333333,
       "tipo": "billetera"
     }
   ],
