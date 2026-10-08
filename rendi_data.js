@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "07/10/2026 20:30",
+  "actualizado": "07/10/2026 23:13",
   "billeteras": [
     {
       "nombre": "Lemon Cash",
@@ -122,7 +122,7 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1490,
     "venta": 1540,
-    "fecha": "2026-10-07T16:00:00.000Z"
+    "fecha": "2026-10-07T18:55:00.000Z"
   },
   "dolar_entidades": [
     {
@@ -150,10 +150,6 @@ window.RENDI_DATA = {
       "venta": 1539.0
     },
     {
-      "nombre": "Ripio",
-      "venta": 1539.05
-    },
-    {
       "nombre": "Banco Nación",
       "venta": 1540.0
     },
@@ -163,6 +159,10 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Plus",
+      "venta": 1540.0
+    },
+    {
+      "nombre": "Tienda Dólar",
       "venta": 1540.0
     }
   ]
