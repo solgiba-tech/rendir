@@ -1,29 +1,23 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "08/10/2026 17:01",
+  "actualizado": "08/10/2026 20:41",
   "billeteras": [
     {
       "nombre": "Lemon Cash",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.847857142857144,
+      "tna": 21.80875,
       "tipo": "billetera"
     },
     {
       "nombre": "Ualá",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.326428571428572,
+      "tna": 21.26125,
       "tipo": "billetera"
     },
     {
       "nombre": "Claro Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.28357142857143,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Mercado Pago",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.022857142857145,
+      "tna": 20.2575,
       "tipo": "billetera"
     },
     {
@@ -45,6 +39,12 @@ window.RENDI_DATA = {
       "tipo": "billetera"
     },
     {
+      "nombre": "Mercado Pago",
+      "producto": "FCI Money Market (TNA estimada, base mensual)",
+      "tna": 19.98375,
+      "tipo": "billetera"
+    },
+    {
       "nombre": "Personal Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
       "tna": 19.71,
@@ -53,7 +53,7 @@ window.RENDI_DATA = {
     {
       "nombre": "Cocos",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.13642857142857,
+      "tna": 18.98,
       "tipo": "billetera"
     }
   ],
@@ -122,23 +122,19 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1490,
     "venta": 1540,
-    "fecha": "2026-10-08T16:00:00.000Z"
+    "fecha": "2026-10-08T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
-      "nombre": "Reba",
-      "venta": 1525.0
-    },
-    {
       "nombre": "Voii",
-      "venta": 1525.0
-    },
-    {
-      "nombre": "Brubank",
       "venta": 1529.0
     },
     {
       "nombre": "Balanz",
+      "venta": 1530.0
+    },
+    {
+      "nombre": "Brubank",
       "venta": 1530.0
     },
     {
@@ -155,6 +151,10 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Plus",
+      "venta": 1535.0
+    },
+    {
+      "nombre": "Reba",
       "venta": 1535.0
     },
     {
