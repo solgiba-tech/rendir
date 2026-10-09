@@ -1,23 +1,23 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "09/10/2026 16:35",
+  "actualizado": "09/10/2026 20:07",
   "billeteras": [
     {
       "nombre": "Lemon Cash",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.80875,
+      "tna": 21.73777777777778,
       "tipo": "billetera"
     },
     {
       "nombre": "Ualá",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.26125,
+      "tna": 21.129444444444445,
       "tipo": "billetera"
     },
     {
       "nombre": "Claro Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.2575,
+      "tna": 20.27777777777778,
       "tipo": "billetera"
     },
     {
@@ -41,7 +41,7 @@ window.RENDI_DATA = {
     {
       "nombre": "Mercado Pago",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.98375,
+      "tna": 19.953333333333333,
       "tipo": "billetera"
     },
     {
@@ -122,28 +122,24 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1485,
     "venta": 1535,
-    "fecha": "2026-10-09T16:00:00.000Z"
+    "fecha": "2026-10-09T18:00:00.000Z"
   },
   "dolar_entidades": [
-    {
-      "nombre": "Banco Bica",
-      "venta": 1517.0
-    },
-    {
-      "nombre": "Voii",
-      "venta": 1524.0
-    },
     {
       "nombre": "Balanz",
       "venta": 1525.0
     },
     {
-      "nombre": "Ualá",
-      "venta": 1527.0
-    },
-    {
       "nombre": "Banco Hipotecario",
       "venta": 1529.0
+    },
+    {
+      "nombre": "Voii",
+      "venta": 1531.0
+    },
+    {
+      "nombre": "Ualá",
+      "venta": 1532.0
     },
     {
       "nombre": "Banco Ciudad",
@@ -162,8 +158,12 @@ window.RENDI_DATA = {
       "venta": 1535.0
     },
     {
-      "nombre": "Plus",
-      "venta": 1535.0
+      "nombre": "Fiwind MEP",
+      "venta": 1537.59
+    },
+    {
+      "nombre": "Ripio",
+      "venta": 1538.99
     }
   ]
 };
