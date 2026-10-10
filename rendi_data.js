@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "09/10/2026 20:07",
+  "actualizado": "09/10/2026 22:52",
   "billeteras": [
     {
       "nombre": "Lemon Cash",
@@ -134,7 +134,7 @@ window.RENDI_DATA = {
       "venta": 1529.0
     },
     {
-      "nombre": "Voii",
+      "nombre": "Cocos Bank",
       "venta": 1531.0
     },
     {
@@ -162,8 +162,8 @@ window.RENDI_DATA = {
       "venta": 1537.59
     },
     {
-      "nombre": "Ripio",
-      "venta": 1538.99
+      "nombre": "Banco Provincia",
+      "venta": 1540.0
     }
   ]
 };
