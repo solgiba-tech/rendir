@@ -1,23 +1,23 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "16/10/2026 18:58",
+  "actualizado": "16/10/2026 21:41",
   "billeteras": [
     {
       "nombre": "Lemon Cash",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.826999999999998,
+      "tna": 21.877187499999998,
       "tipo": "billetera"
     },
     {
       "nombre": "Ualá",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.68333333333333,
+      "tna": 20.7821875,
       "tipo": "billetera"
     },
     {
       "nombre": "Claro Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.512999999999998,
+      "tna": 20.5084375,
       "tipo": "billetera"
     },
     {
@@ -41,23 +41,84 @@ window.RENDI_DATA = {
     {
       "nombre": "Mercado Pago",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.95333333333333,
+      "tna": 19.98375,
       "tipo": "billetera"
     },
     {
       "nombre": "Personal Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.831666666666663,
+      "tna": 19.80125,
       "tipo": "billetera"
     },
     {
       "nombre": "Cocos",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 18.98,
+      "tna": 18.9571875,
       "tipo": "billetera"
     }
   ],
-  "bancos": [],
+  "bancos": [
+    {
+      "nombre": "Banco Hipotecario S.A.",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 24.36,
+      "tipo": "banco"
+    },
+    {
+      "nombre": "Banco De La Provincia De Buenos Aires",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 23.15,
+      "tipo": "banco"
+    },
+    {
+      "nombre": "Banco De La Nacion Argentina",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 21.05,
+      "tipo": "banco"
+    },
+    {
+      "nombre": "Banco Bbva Argentina S.A.",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 20.75,
+      "tipo": "banco"
+    },
+    {
+      "nombre": "Banco Comafi Sociedad Anonima",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 20.75,
+      "tipo": "banco"
+    },
+    {
+      "nombre": "Banco Supervielle S.A.",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 20.75,
+      "tipo": "banco"
+    },
+    {
+      "nombre": "Banco Credicoop Cooperativo Limitado",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 20.15,
+      "tipo": "banco"
+    },
+    {
+      "nombre": "Banco Macro S.A.",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 19.86,
+      "tipo": "banco"
+    },
+    {
+      "nombre": "Banco De Galicia Y Buenos Aires S.A.",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 18.68,
+      "tipo": "banco"
+    },
+    {
+      "nombre": "Banco De La Ciudad De Buenos Aires",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 18.39,
+      "tipo": "banco"
+    }
+  ],
   "dolar_oficial": {
     "compra": 1485,
     "venta": 1535,
