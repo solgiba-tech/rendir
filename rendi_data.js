@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "22/10/2026 21:50",
+  "actualizado": "23/10/2026 15:32",
   "billeteras": [
     {
       "nombre": "Lemon Cash",
@@ -101,15 +101,15 @@ window.RENDI_DATA = {
       "tipo": "banco"
     },
     {
-      "nombre": "Banco Macro S.A.",
+      "nombre": "Banco De Galicia Y Buenos Aires S.A.",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 19.86,
       "tipo": "banco"
     },
     {
-      "nombre": "Banco De Galicia Y Buenos Aires S.A.",
+      "nombre": "Banco Macro S.A.",
       "producto": "Plazo fijo 30 días (TEA)",
-      "tna": 18.68,
+      "tna": 19.86,
       "tipo": "banco"
     },
     {
@@ -122,23 +122,19 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1500,
     "venta": 1550,
-    "fecha": "2026-10-22T18:00:00.000Z"
+    "fecha": "2026-10-23T15:05:00.000Z"
   },
   "dolar_entidades": [
     {
-      "nombre": "Balanz",
-      "venta": 1540.0
-    },
-    {
       "nombre": "Brubank",
-      "venta": 1540.0
+      "venta": 1537.0
     },
     {
       "nombre": "Cocos Bank",
-      "venta": 1540.0
+      "venta": 1537.0
     },
     {
-      "nombre": "Reba",
+      "nombre": "Balanz",
       "venta": 1540.0
     },
     {
@@ -155,6 +151,10 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Plus",
+      "venta": 1545.0
+    },
+    {
+      "nombre": "Reba",
       "venta": 1545.0
     },
     {
