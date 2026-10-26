@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "23/10/2026 21:57",
+  "actualizado": "26/10/2026 17:02",
   "billeteras": [
     {
       "nombre": "Lemon Cash",
@@ -120,50 +120,50 @@ window.RENDI_DATA = {
     }
   ],
   "dolar_oficial": {
-    "compra": 1500,
-    "venta": 1550,
-    "fecha": "2026-10-23T18:00:00.000Z"
+    "compra": 1510,
+    "venta": 1560,
+    "fecha": "2026-10-26T16:00:00.000Z"
   },
   "dolar_entidades": [
     {
-      "nombre": "Balanz",
-      "venta": 1540.0
+      "nombre": "Banco Bica",
+      "venta": 1541.0
     },
     {
-      "nombre": "Brubank",
-      "venta": 1542.0
+      "nombre": "Balanz",
+      "venta": 1549.0
     },
     {
       "nombre": "Cocos Bank",
-      "venta": 1542.0
+      "venta": 1549.0
     },
     {
-      "nombre": "Ualá",
-      "venta": 1543.0
-    },
-    {
-      "nombre": "Banco Hipotecario",
-      "venta": 1544.0
-    },
-    {
-      "nombre": "ICBC",
-      "venta": 1545.0
+      "nombre": "Brubank",
+      "venta": 1550.0
     },
     {
       "nombre": "Reba",
-      "venta": 1545.0
+      "venta": 1550.0
+    },
+    {
+      "nombre": "Ualá",
+      "venta": 1550.0
+    },
+    {
+      "nombre": "Banco Hipotecario",
+      "venta": 1554.0
     },
     {
       "nombre": "Banco Ciudad",
-      "venta": 1550.0
+      "venta": 1560.0
     },
     {
       "nombre": "Banco Nación",
-      "venta": 1550.0
+      "venta": 1560.0
     },
     {
       "nombre": "Banco Provincia",
-      "venta": 1550.0
+      "venta": 1560.0
     }
   ]
 };
