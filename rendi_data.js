@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "26/10/2026 20:04",
+  "actualizado": "26/10/2026 22:35",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -18,6 +18,12 @@ window.RENDI_DATA = {
       "nombre": "Ualá",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
       "tna": 20.959423076923077,
+      "tipo": "billetera"
+    },
+    {
+      "nombre": "Claro Pay",
+      "producto": "FCI Money Market (TNA estimada, base mensual)",
+      "tna": 20.580384615384613,
       "tipo": "billetera"
     },
     {
