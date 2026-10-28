@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "28/10/2026 16:42",
+  "actualizado": "28/10/2026 20:01",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -11,25 +11,25 @@ window.RENDI_DATA = {
     {
       "nombre": "Lemon Cash",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.900000000000002,
+      "tna": 21.913035714285716,
       "tipo": "billetera"
     },
     {
       "nombre": "Ualá",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.967222222222222,
+      "tna": 20.961428571428574,
       "tipo": "billetera"
     },
     {
       "nombre": "Claro Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.588703703703704,
+      "tna": 20.570357142857144,
       "tipo": "billetera"
     },
     {
       "nombre": "Mercado Pago",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.034444444444446,
+      "tna": 20.03589285714286,
       "tipo": "billetera"
     },
     {
@@ -47,13 +47,13 @@ window.RENDI_DATA = {
     {
       "nombre": "Personal Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.80462962962963,
+      "tna": 19.80125,
       "tipo": "billetera"
     },
     {
       "nombre": "Cocos",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 18.912407407407407,
+      "tna": 18.88875,
       "tipo": "billetera"
     }
   ],
@@ -122,31 +122,27 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1510,
     "venta": 1560,
-    "fecha": "2026-10-28T16:00:00.000Z"
+    "fecha": "2026-10-28T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
-      "nombre": "Brubank",
-      "venta": 1545.0
-    },
-    {
       "nombre": "Balanz",
       "venta": 1547.0
+    },
+    {
+      "nombre": "Brubank",
+      "venta": 1550.0
     },
     {
       "nombre": "Reba",
       "venta": 1550.0
     },
     {
-      "nombre": "Cocos Bank",
-      "venta": 1551.0
-    },
-    {
-      "nombre": "Ualá",
-      "venta": 1552.0
-    },
-    {
       "nombre": "Banco Hipotecario",
+      "venta": 1554.0
+    },
+    {
+      "nombre": "Cocos Bank",
       "venta": 1554.0
     },
     {
@@ -155,6 +151,10 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Tienda Dólar",
+      "venta": 1555.0
+    },
+    {
+      "nombre": "Ualá",
       "venta": 1555.0
     },
     {
