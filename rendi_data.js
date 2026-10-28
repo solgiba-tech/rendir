@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "27/10/2026 22:33",
+  "actualizado": "28/10/2026 16:42",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -89,12 +89,6 @@ window.RENDI_DATA = {
       "tipo": "banco"
     },
     {
-      "nombre": "Banco Supervielle S.A.",
-      "producto": "Plazo fijo 30 días (TEA)",
-      "tna": 20.75,
-      "tipo": "banco"
-    },
-    {
       "nombre": "Banco Credicoop Cooperativo Limitado",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 20.15,
@@ -113,6 +107,12 @@ window.RENDI_DATA = {
       "tipo": "banco"
     },
     {
+      "nombre": "Banco Supervielle S.A.",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 19.56,
+      "tipo": "banco"
+    },
+    {
       "nombre": "Banco De La Ciudad De Buenos Aires",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 18.39,
@@ -122,7 +122,7 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1510,
     "venta": 1560,
-    "fecha": "2026-10-27T18:00:00.000Z"
+    "fecha": "2026-10-28T16:00:00.000Z"
   },
   "dolar_entidades": [
     {
@@ -130,19 +130,19 @@ window.RENDI_DATA = {
       "venta": 1545.0
     },
     {
+      "nombre": "Balanz",
+      "venta": 1547.0
+    },
+    {
       "nombre": "Reba",
-      "venta": 1545.0
+      "venta": 1550.0
     },
     {
       "nombre": "Cocos Bank",
-      "venta": 1550.0
+      "venta": 1551.0
     },
     {
       "nombre": "Ualá",
-      "venta": 1550.0
-    },
-    {
-      "nombre": "Balanz",
       "venta": 1552.0
     },
     {
