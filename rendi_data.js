@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "28/10/2026 22:55",
+  "actualizado": "29/10/2026 16:44",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -77,12 +77,6 @@ window.RENDI_DATA = {
       "tipo": "banco"
     },
     {
-      "nombre": "Banco Bbva Argentina S.A.",
-      "producto": "Plazo fijo 30 días (TEA)",
-      "tna": 20.75,
-      "tipo": "banco"
-    },
-    {
       "nombre": "Banco Comafi Sociedad Anonima",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 20.75,
@@ -113,6 +107,12 @@ window.RENDI_DATA = {
       "tipo": "banco"
     },
     {
+      "nombre": "Banco Bbva Argentina S.A.",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 18.39,
+      "tipo": "banco"
+    },
+    {
       "nombre": "Banco De La Ciudad De Buenos Aires",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 18.39,
@@ -122,40 +122,40 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1510,
     "venta": 1560,
-    "fecha": "2026-10-28T18:00:00.000Z"
+    "fecha": "2026-10-29T16:00:00.000Z"
   },
   "dolar_entidades": [
     {
-      "nombre": "Balanz",
+      "nombre": "Brubank",
       "venta": 1547.0
     },
     {
-      "nombre": "Brubank",
-      "venta": 1550.0
+      "nombre": "Cocos Bank",
+      "venta": 1547.0
     },
     {
       "nombre": "Reba",
-      "venta": 1550.0
+      "venta": 1548.0
+    },
+    {
+      "nombre": "Balanz",
+      "venta": 1549.0
+    },
+    {
+      "nombre": "Ualá",
+      "venta": 1549.0
+    },
+    {
+      "nombre": "Plus",
+      "venta": 1552.0
+    },
+    {
+      "nombre": "Tienda Dólar",
+      "venta": 1552.0
     },
     {
       "nombre": "Banco Hipotecario",
       "venta": 1554.0
-    },
-    {
-      "nombre": "Cocos Bank",
-      "venta": 1554.0
-    },
-    {
-      "nombre": "Plus",
-      "venta": 1555.0
-    },
-    {
-      "nombre": "Tienda Dólar",
-      "venta": 1555.0
-    },
-    {
-      "nombre": "Ualá",
-      "venta": 1555.0
     },
     {
       "nombre": "Banco Ciudad",
