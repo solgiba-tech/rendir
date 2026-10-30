@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "29/10/2026 23:05",
+  "actualizado": "30/10/2026 16:32",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -89,6 +89,12 @@ window.RENDI_DATA = {
       "tipo": "banco"
     },
     {
+      "nombre": "Banco Santander Argentina S.A.",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 20.15,
+      "tipo": "banco"
+    },
+    {
       "nombre": "Banco De Galicia Y Buenos Aires S.A.",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 19.86,
@@ -111,22 +117,28 @@ window.RENDI_DATA = {
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 18.39,
       "tipo": "banco"
-    },
-    {
-      "nombre": "Banco De La Ciudad De Buenos Aires",
-      "producto": "Plazo fijo 30 días (TEA)",
-      "tna": 18.39,
-      "tipo": "banco"
     }
   ],
   "dolar_oficial": {
     "compra": 1510,
     "venta": 1560,
-    "fecha": "2026-10-29T18:00:00.000Z"
+    "fecha": "2026-10-30T16:00:00.000Z"
   },
   "dolar_entidades": [
     {
+      "nombre": "Reba",
+      "venta": 1545.0
+    },
+    {
       "nombre": "Brubank",
+      "venta": 1547.0
+    },
+    {
+      "nombre": "Cocos Bank",
+      "venta": 1547.0
+    },
+    {
+      "nombre": "Ualá",
       "venta": 1547.0
     },
     {
@@ -134,28 +146,8 @@ window.RENDI_DATA = {
       "venta": 1549.0
     },
     {
-      "nombre": "Cocos Bank",
-      "venta": 1549.0
-    },
-    {
-      "nombre": "Ualá",
-      "venta": 1553.0
-    },
-    {
       "nombre": "Banco Hipotecario",
-      "venta": 1554.0
-    },
-    {
-      "nombre": "Plus",
-      "venta": 1555.0
-    },
-    {
-      "nombre": "Reba",
-      "venta": 1555.0
-    },
-    {
-      "nombre": "Tienda Dólar",
-      "venta": 1555.0
+      "venta": 1559.0
     },
     {
       "nombre": "Banco Ciudad",
@@ -163,6 +155,14 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Banco Nación",
+      "venta": 1560.0
+    },
+    {
+      "nombre": "Banco Provincia",
+      "venta": 1560.0
+    },
+    {
+      "nombre": "Plus",
       "venta": 1560.0
     }
   ]
