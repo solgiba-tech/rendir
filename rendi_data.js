@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "30/10/2026 22:44",
+  "actualizado": "02/11/2026 19:49",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -120,50 +120,50 @@ window.RENDI_DATA = {
     }
   ],
   "dolar_oficial": {
-    "compra": 1510,
-    "venta": 1560,
-    "fecha": "2026-10-30T18:00:00.000Z"
+    "compra": 1515,
+    "venta": 1565,
+    "fecha": "2026-11-02T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
       "nombre": "Balanz",
-      "venta": 1549.0
-    },
-    {
-      "nombre": "Brubank",
-      "venta": 1550.0
-    },
-    {
-      "nombre": "Cocos Bank",
-      "venta": 1552.0
-    },
-    {
-      "nombre": "Ualá",
-      "venta": 1552.0
+      "venta": 1555.0
     },
     {
       "nombre": "Reba",
       "venta": 1555.0
     },
     {
+      "nombre": "Brubank",
+      "venta": 1556.0
+    },
+    {
+      "nombre": "Cocos Bank",
+      "venta": 1557.0
+    },
+    {
+      "nombre": "Ualá",
+      "venta": 1557.0
+    },
+    {
       "nombre": "Banco Hipotecario",
       "venta": 1559.0
     },
     {
-      "nombre": "Banco Ciudad",
+      "nombre": "Plus",
       "venta": 1560.0
+    },
+    {
+      "nombre": "Tienda Dólar",
+      "venta": 1560.0
+    },
+    {
+      "nombre": "Banco Ciudad",
+      "venta": 1565.0
     },
     {
       "nombre": "Banco Nación",
-      "venta": 1560.0
-    },
-    {
-      "nombre": "Banco Provincia",
-      "venta": 1560.0
-    },
-    {
-      "nombre": "Plus",
-      "venta": 1560.0
+      "venta": 1565.0
     }
   ]
 };
