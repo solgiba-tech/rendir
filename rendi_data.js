@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "04/11/2026 17:52",
+  "actualizado": "04/11/2026 21:14",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -11,31 +11,25 @@ window.RENDI_DATA = {
     {
       "nombre": "Ualá",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 22.0825,
+      "tna": 22.046,
       "tipo": "billetera"
     },
     {
       "nombre": "Lemon Cash",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.99125,
+      "tna": 21.973,
       "tipo": "billetera"
     },
     {
       "nombre": "Claro Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.896250000000002,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Cocos",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.34875,
+      "tna": 20.805,
       "tipo": "billetera"
     },
     {
       "nombre": "Mercado Pago",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.16625,
+      "tna": 20.148000000000003,
       "tipo": "billetera"
     },
     {
@@ -51,9 +45,15 @@ window.RENDI_DATA = {
       "tipo": "billetera"
     },
     {
+      "nombre": "Cocos",
+      "producto": "FCI Money Market (TNA estimada, base mensual)",
+      "tna": 19.71,
+      "tipo": "billetera"
+    },
+    {
       "nombre": "Personal Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.61875,
+      "tna": 19.637,
       "tipo": "billetera"
     }
   ],
@@ -122,28 +122,28 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1520,
     "venta": 1570,
-    "fecha": "2026-11-04T17:00:00.000Z"
+    "fecha": "2026-11-04T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
       "nombre": "Brubank",
-      "venta": 1553.0
-    },
-    {
-      "nombre": "Reba",
-      "venta": 1555.0
-    },
-    {
-      "nombre": "Cocos Bank",
-      "venta": 1557.0
+      "venta": 1558.0
     },
     {
       "nombre": "Balanz",
       "venta": 1560.0
     },
     {
-      "nombre": "Ualá",
+      "nombre": "Cocos Bank",
       "venta": 1560.0
+    },
+    {
+      "nombre": "Reba",
+      "venta": 1560.0
+    },
+    {
+      "nombre": "Ualá",
+      "venta": 1565.0
     },
     {
       "nombre": "Banco Hipotecario",
