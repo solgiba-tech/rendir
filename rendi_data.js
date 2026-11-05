@@ -1,35 +1,11 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "05/11/2026 18:08",
+  "actualizado": "05/11/2026 20:58",
   "billeteras": [
     {
       "nombre": "Fiwind",
       "producto": "Cuenta remunerada (via comparatasas.ar)",
       "tna": 23.0,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Ualá",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 22.046,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Lemon Cash",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.973,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Claro Pay",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.805,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Mercado Pago",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.148000000000003,
       "tipo": "billetera"
     },
     {
@@ -42,18 +18,6 @@ window.RENDI_DATA = {
       "nombre": "Naranja X",
       "producto": "Cuenta remunerada (via comparatasas.ar)",
       "tna": 20.0,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Cocos",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.71,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Personal Pay",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.637,
       "tipo": "billetera"
     }
   ],
@@ -134,28 +98,28 @@ window.RENDI_DATA = {
       "venta": 1555.0
     },
     {
-      "nombre": "Cocos Bank",
-      "venta": 1560.0
-    },
-    {
       "nombre": "Reba",
       "venta": 1560.0
     },
     {
       "nombre": "Ualá",
-      "venta": 1560.0
+      "venta": 1563.0
+    },
+    {
+      "nombre": "Ripio",
+      "venta": 1564.64
     },
     {
       "nombre": "Brubank",
       "venta": 1565.0
     },
     {
-      "nombre": "Banco Hipotecario",
-      "venta": 1569.0
+      "nombre": "Cocos Bank",
+      "venta": 1565.0
     },
     {
-      "nombre": "Ripio",
-      "venta": 1569.18
+      "nombre": "Banco Hipotecario",
+      "venta": 1569.0
     },
     {
       "nombre": "Plus Inversiones",
