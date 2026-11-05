@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "04/11/2026 23:41",
+  "actualizado": "05/11/2026 18:08",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -95,6 +95,12 @@ window.RENDI_DATA = {
       "tipo": "banco"
     },
     {
+      "nombre": "Banco Supervielle S.A.",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 20.15,
+      "tipo": "banco"
+    },
+    {
       "nombre": "Banco De Galicia Y Buenos Aires S.A.",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 19.86,
@@ -107,12 +113,6 @@ window.RENDI_DATA = {
       "tipo": "banco"
     },
     {
-      "nombre": "Banco Supervielle S.A.",
-      "producto": "Plazo fijo 30 días (TEA)",
-      "tna": 19.56,
-      "tipo": "banco"
-    },
-    {
       "nombre": "Banco Bbva Argentina S.A.",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 18.39,
@@ -122,16 +122,16 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1520,
     "venta": 1570,
-    "fecha": "2026-11-04T18:00:00.000Z"
+    "fecha": "2026-11-05T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
-      "nombre": "Brubank",
-      "venta": 1558.0
+      "nombre": "Fiwind MEP",
+      "venta": 1554.14
     },
     {
       "nombre": "Balanz",
-      "venta": 1560.0
+      "venta": 1555.0
     },
     {
       "nombre": "Cocos Bank",
@@ -143,6 +143,10 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Ualá",
+      "venta": 1560.0
+    },
+    {
+      "nombre": "Brubank",
       "venta": 1565.0
     },
     {
@@ -150,19 +154,15 @@ window.RENDI_DATA = {
       "venta": 1569.0
     },
     {
+      "nombre": "Ripio",
+      "venta": 1569.18
+    },
+    {
+      "nombre": "Plus Inversiones",
+      "venta": 1569.76
+    },
+    {
       "nombre": "Banco Ciudad",
-      "venta": 1570.0
-    },
-    {
-      "nombre": "Banco Nación",
-      "venta": 1570.0
-    },
-    {
-      "nombre": "Banco Provincia",
-      "venta": 1570.0
-    },
-    {
-      "nombre": "Plus",
       "venta": 1570.0
     }
   ]
