@@ -1,11 +1,35 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "05/11/2026 20:58",
+  "actualizado": "05/11/2026 23:44",
   "billeteras": [
     {
       "nombre": "Fiwind",
       "producto": "Cuenta remunerada (via comparatasas.ar)",
       "tna": 23.0,
+      "tipo": "billetera"
+    },
+    {
+      "nombre": "Ualá",
+      "producto": "FCI Money Market (TNA estimada, base mensual)",
+      "tna": 22.02166666666667,
+      "tipo": "billetera"
+    },
+    {
+      "nombre": "Lemon Cash",
+      "producto": "FCI Money Market (TNA estimada, base mensual)",
+      "tna": 21.960833333333333,
+      "tipo": "billetera"
+    },
+    {
+      "nombre": "Claro Pay",
+      "producto": "FCI Money Market (TNA estimada, base mensual)",
+      "tna": 20.926666666666666,
+      "tipo": "billetera"
+    },
+    {
+      "nombre": "Mercado Pago",
+      "producto": "FCI Money Market (TNA estimada, base mensual)",
+      "tna": 20.19666666666667,
       "tipo": "billetera"
     },
     {
@@ -18,6 +42,18 @@ window.RENDI_DATA = {
       "nombre": "Naranja X",
       "producto": "Cuenta remunerada (via comparatasas.ar)",
       "tna": 20.0,
+      "tipo": "billetera"
+    },
+    {
+      "nombre": "Personal Pay",
+      "producto": "FCI Money Market (TNA estimada, base mensual)",
+      "tna": 19.71,
+      "tipo": "billetera"
+    },
+    {
+      "nombre": "Cocos",
+      "producto": "FCI Money Market (TNA estimada, base mensual)",
+      "tna": 19.588333333333335,
       "tipo": "billetera"
     }
   ],
@@ -106,10 +142,6 @@ window.RENDI_DATA = {
       "venta": 1563.0
     },
     {
-      "nombre": "Ripio",
-      "venta": 1564.64
-    },
-    {
       "nombre": "Brubank",
       "venta": 1565.0
     },
@@ -127,6 +159,10 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Banco Ciudad",
+      "venta": 1570.0
+    },
+    {
+      "nombre": "Banco Nación",
       "venta": 1570.0
     }
   ]
