@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "06/11/2026 17:29",
+  "actualizado": "06/11/2026 20:41",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -122,7 +122,7 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1520,
     "venta": 1570,
-    "fecha": "2026-11-05T17:00:00.000Z"
+    "fecha": "2026-11-05T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
@@ -134,10 +134,6 @@ window.RENDI_DATA = {
       "venta": 1555.0
     },
     {
-      "nombre": "Reba",
-      "venta": 1560.0
-    },
-    {
       "nombre": "Cocos Bank",
       "venta": 1563.0
     },
@@ -146,23 +142,27 @@ window.RENDI_DATA = {
       "venta": 1565.0
     },
     {
-      "nombre": "Ualá",
-      "venta": 1565.0
-    },
-    {
-      "nombre": "Ripio",
-      "venta": 1567.44
-    },
-    {
-      "nombre": "Fiwind Cripto",
-      "venta": 1568.7203832701423
-    },
-    {
       "nombre": "Banco Hipotecario",
       "venta": 1569.0
     },
     {
       "nombre": "Banco Ciudad",
+      "venta": 1570.0
+    },
+    {
+      "nombre": "Banco Nación",
+      "venta": 1570.0
+    },
+    {
+      "nombre": "Banco Provincia",
+      "venta": 1570.0
+    },
+    {
+      "nombre": "Reba",
+      "venta": 1570.0
+    },
+    {
+      "nombre": "Ualá",
       "venta": 1570.0
     }
   ]
