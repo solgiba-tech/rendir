@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "10/11/2026 01:15",
+  "actualizado": "10/11/2026 17:55",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -158,12 +158,12 @@ window.RENDI_DATA = {
       "venta": 1570.0
     },
     {
-      "nombre": "Reba",
-      "venta": 1570.0
+      "nombre": "Nexo",
+      "venta": 1571.772291539866
     },
     {
-      "nombre": "Ualá",
-      "venta": 1573.0
+      "nombre": "Banco Bica",
+      "venta": 1575.0
     }
   ]
 };
