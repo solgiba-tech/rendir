@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "12/11/2026 00:16",
+  "actualizado": "12/11/2026 18:30",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -122,28 +122,20 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1520,
     "venta": 1570,
-    "fecha": "2026-11-11T18:00:00.000Z"
+    "fecha": "2026-11-12T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
+      "nombre": "Reba",
+      "venta": 1550.0
+    },
+    {
       "nombre": "Balanz",
-      "venta": 1558.0
+      "venta": 1557.0
     },
     {
       "nombre": "Cocos Bank",
-      "venta": 1562.0
-    },
-    {
-      "nombre": "Brubank",
-      "venta": 1565.0
-    },
-    {
-      "nombre": "Plus",
-      "venta": 1565.0
-    },
-    {
-      "nombre": "Tienda Dólar",
-      "venta": 1565.0
+      "venta": 1560.0
     },
     {
       "nombre": "Ualá",
@@ -162,7 +154,15 @@ window.RENDI_DATA = {
       "venta": 1570.0
     },
     {
-      "nombre": "Reba",
+      "nombre": "Banco Provincia",
+      "venta": 1570.0
+    },
+    {
+      "nombre": "Brubank",
+      "venta": 1570.0
+    },
+    {
+      "nombre": "Plus",
       "venta": 1570.0
     }
   ]
