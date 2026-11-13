@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "12/11/2026 23:50",
+  "actualizado": "13/11/2026 17:56",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -71,6 +71,12 @@ window.RENDI_DATA = {
       "tipo": "banco"
     },
     {
+      "nombre": "Banco Supervielle S.A.",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 23.15,
+      "tipo": "banco"
+    },
+    {
       "nombre": "Banco De La Nacion Argentina",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 21.05,
@@ -90,12 +96,6 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Banco Santander Argentina S.A.",
-      "producto": "Plazo fijo 30 días (TEA)",
-      "tna": 20.15,
-      "tipo": "banco"
-    },
-    {
-      "nombre": "Banco Supervielle S.A.",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 20.15,
       "tipo": "banco"
@@ -122,7 +122,7 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1520,
     "venta": 1570,
-    "fecha": "2026-11-12T18:00:00.000Z"
+    "fecha": "2026-11-13T17:00:00.000Z"
   },
   "dolar_entidades": [
     {
@@ -135,6 +135,10 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Ualá",
+      "venta": 1562.0
+    },
+    {
+      "nombre": "Reba",
       "venta": 1565.0
     },
     {
@@ -159,10 +163,6 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Plus",
-      "venta": 1570.0
-    },
-    {
-      "nombre": "Reba",
       "venta": 1570.0
     }
   ]
