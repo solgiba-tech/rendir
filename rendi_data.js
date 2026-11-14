@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "13/11/2026 17:56",
+  "actualizado": "13/11/2026 21:15",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -9,33 +9,33 @@ window.RENDI_DATA = {
       "tipo": "billetera"
     },
     {
-      "nombre": "Ualá",
+      "nombre": "Lemon Cash",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.956153846153846,
+      "tna": 21.952142857142857,
       "tipo": "billetera"
     },
     {
-      "nombre": "Lemon Cash",
+      "nombre": "Ualá",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.928076923076922,
+      "tna": 21.900000000000002,
       "tipo": "billetera"
     },
     {
       "nombre": "Claro Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.338461538461537,
+      "tna": 21.248214285714287,
       "tipo": "billetera"
     },
     {
       "nombre": "Mercado Pago",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.552307692307693,
+      "tna": 20.518214285714286,
       "tipo": "billetera"
     },
     {
       "nombre": "Cocos",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.46807692307692,
+      "tna": 20.28357142857143,
       "tipo": "billetera"
     },
     {
@@ -48,12 +48,6 @@ window.RENDI_DATA = {
       "nombre": "Naranja X",
       "producto": "Cuenta remunerada (via comparatasas.ar)",
       "tna": 20.0,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Personal Pay",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.878461538461536,
       "tipo": "billetera"
     }
   ],
@@ -122,7 +116,7 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1520,
     "venta": 1570,
-    "fecha": "2026-11-13T17:00:00.000Z"
+    "fecha": "2026-11-13T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
@@ -131,11 +125,11 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Cocos Bank",
-      "venta": 1560.0
+      "venta": 1564.0
     },
     {
       "nombre": "Ualá",
-      "venta": 1562.0
+      "venta": 1564.0
     },
     {
       "nombre": "Reba",
