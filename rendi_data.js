@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "13/11/2026 23:37",
+  "actualizado": "16/11/2026 20:27",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -9,33 +9,27 @@ window.RENDI_DATA = {
       "tipo": "billetera"
     },
     {
-      "nombre": "Lemon Cash",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.952142857142857,
-      "tipo": "billetera"
-    },
-    {
       "nombre": "Ualá",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.900000000000002,
+      "tna": 21.685294117647057,
       "tipo": "billetera"
     },
     {
       "nombre": "Claro Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.248214285714287,
+      "tna": 21.08411764705882,
       "tipo": "billetera"
     },
     {
       "nombre": "Mercado Pago",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.518214285714286,
+      "tna": 20.46147058823529,
       "tipo": "billetera"
     },
     {
       "nombre": "Cocos",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.28357142857143,
+      "tna": 20.268235294117645,
       "tipo": "billetera"
     },
     {
@@ -48,6 +42,12 @@ window.RENDI_DATA = {
       "nombre": "Naranja X",
       "producto": "Cuenta remunerada (via comparatasas.ar)",
       "tna": 20.0,
+      "tipo": "billetera"
+    },
+    {
+      "nombre": "Personal Pay",
+      "producto": "FCI Money Market (TNA estimada, base mensual)",
+      "tna": 19.81735294117647,
       "tipo": "billetera"
     }
   ],
@@ -89,12 +89,6 @@ window.RENDI_DATA = {
       "tipo": "banco"
     },
     {
-      "nombre": "Banco Santander Argentina S.A.",
-      "producto": "Plazo fijo 30 días (TEA)",
-      "tna": 20.15,
-      "tipo": "banco"
-    },
-    {
       "nombre": "Banco De Galicia Y Buenos Aires S.A.",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 19.86,
@@ -107,6 +101,12 @@ window.RENDI_DATA = {
       "tipo": "banco"
     },
     {
+      "nombre": "Banco Santander Argentina S.A.",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 19.56,
+      "tipo": "banco"
+    },
+    {
       "nombre": "Banco Bbva Argentina S.A.",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 18.39,
@@ -114,42 +114,26 @@ window.RENDI_DATA = {
     }
   ],
   "dolar_oficial": {
-    "compra": 1520,
-    "venta": 1570,
-    "fecha": "2026-11-13T18:00:00.000Z"
+    "compra": 1525,
+    "venta": 1575,
+    "fecha": "2026-11-16T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
       "nombre": "Balanz",
-      "venta": 1557.0
+      "venta": 1562.0
     },
     {
       "nombre": "Cocos Bank",
-      "venta": 1564.0
-    },
-    {
-      "nombre": "Ualá",
-      "venta": 1564.0
-    },
-    {
-      "nombre": "Reba",
-      "venta": 1565.0
+      "venta": 1568.0
     },
     {
       "nombre": "Banco Hipotecario",
       "venta": 1569.0
     },
     {
-      "nombre": "Banco Ciudad",
-      "venta": 1570.0
-    },
-    {
-      "nombre": "Banco Nación",
-      "venta": 1570.0
-    },
-    {
-      "nombre": "Banco Provincia",
-      "venta": 1570.0
+      "nombre": "Ualá",
+      "venta": 1569.0
     },
     {
       "nombre": "Brubank",
@@ -158,6 +142,22 @@ window.RENDI_DATA = {
     {
       "nombre": "Plus",
       "venta": 1570.0
+    },
+    {
+      "nombre": "Reba",
+      "venta": 1570.0
+    },
+    {
+      "nombre": "Tienda Dólar",
+      "venta": 1570.0
+    },
+    {
+      "nombre": "Banco Bica",
+      "venta": 1575.0
+    },
+    {
+      "nombre": "Banco Ciudad",
+      "venta": 1575.0
     }
   ]
 };
