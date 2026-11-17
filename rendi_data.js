@@ -1,11 +1,17 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "17/11/2026 01:42",
+  "actualizado": "17/11/2026 19:30",
   "billeteras": [
     {
       "nombre": "Fiwind",
       "producto": "Cuenta remunerada (via comparatasas.ar)",
       "tna": 23.0,
+      "tipo": "billetera"
+    },
+    {
+      "nombre": "Lemon Cash",
+      "producto": "FCI Money Market (TNA estimada, base mensual)",
+      "tna": 21.792647058823526,
       "tipo": "billetera"
     },
     {
@@ -65,12 +71,6 @@ window.RENDI_DATA = {
       "tipo": "banco"
     },
     {
-      "nombre": "Banco Supervielle S.A.",
-      "producto": "Plazo fijo 30 días (TEA)",
-      "tna": 23.15,
-      "tipo": "banco"
-    },
-    {
       "nombre": "Banco De La Nacion Argentina",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 21.05,
@@ -84,6 +84,12 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Banco Credicoop Cooperativo Limitado",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 20.15,
+      "tipo": "banco"
+    },
+    {
+      "nombre": "Banco Supervielle S.A.",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 20.15,
       "tipo": "banco"
@@ -116,47 +122,47 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1525,
     "venta": 1575,
-    "fecha": "2026-11-16T18:00:00.000Z"
+    "fecha": "2026-11-17T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
       "nombre": "Balanz",
-      "venta": 1562.0
-    },
-    {
-      "nombre": "Cocos Bank",
-      "venta": 1568.0
-    },
-    {
-      "nombre": "Banco Hipotecario",
-      "venta": 1569.0
-    },
-    {
-      "nombre": "Ualá",
-      "venta": 1569.0
+      "venta": 1565.0
     },
     {
       "nombre": "Brubank",
       "venta": 1570.0
     },
     {
-      "nombre": "Plus",
-      "venta": 1570.0
+      "nombre": "Cocos Bank",
+      "venta": 1571.0
     },
     {
-      "nombre": "Reba",
-      "venta": 1570.0
+      "nombre": "Ualá",
+      "venta": 1571.0
     },
     {
-      "nombre": "Tienda Dólar",
-      "venta": 1570.0
-    },
-    {
-      "nombre": "Banco Bica",
-      "venta": 1575.0
+      "nombre": "Banco Hipotecario",
+      "venta": 1574.0
     },
     {
       "nombre": "Banco Ciudad",
+      "venta": 1575.0
+    },
+    {
+      "nombre": "Banco Nación",
+      "venta": 1575.0
+    },
+    {
+      "nombre": "Banco Provincia",
+      "venta": 1575.0
+    },
+    {
+      "nombre": "ICBC",
+      "venta": 1575.0
+    },
+    {
+      "nombre": "Plus",
       "venta": 1575.0
     }
   ]
