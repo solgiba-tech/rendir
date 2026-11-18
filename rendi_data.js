@@ -1,11 +1,11 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "18/11/2026 00:47",
+  "actualizado": "18/11/2026 19:10",
   "billeteras": [
     {
       "nombre": "Fiwind",
       "producto": "Cuenta remunerada (via comparatasas.ar)",
-      "tna": 23.0,
+      "tna": 25.0,
       "tipo": "billetera"
     },
     {
@@ -120,50 +120,50 @@ window.RENDI_DATA = {
     }
   ],
   "dolar_oficial": {
-    "compra": 1525,
-    "venta": 1575,
-    "fecha": "2026-11-17T18:00:00.000Z"
+    "compra": 1530,
+    "venta": 1580,
+    "fecha": "2026-11-18T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
       "nombre": "Balanz",
-      "venta": 1565.0
-    },
-    {
-      "nombre": "Brubank",
       "venta": 1570.0
-    },
-    {
-      "nombre": "Cocos Bank",
-      "venta": 1571.0
     },
     {
       "nombre": "Banco Hipotecario",
       "venta": 1574.0
     },
     {
-      "nombre": "Ualá",
-      "venta": 1574.0
+      "nombre": "Banco Supervielle",
+      "venta": 1575.5
     },
     {
       "nombre": "Banco Ciudad",
-      "venta": 1575.0
+      "venta": 1580.0
     },
     {
       "nombre": "Banco Nación",
-      "venta": 1575.0
+      "venta": 1580.0
     },
     {
       "nombre": "Banco Provincia",
-      "venta": 1575.0
+      "venta": 1580.0
+    },
+    {
+      "nombre": "Cocos Bank",
+      "venta": 1580.0
     },
     {
       "nombre": "ICBC",
-      "venta": 1575.0
+      "venta": 1580.0
     },
     {
-      "nombre": "Plus",
-      "venta": 1575.0
+      "nombre": "Reba",
+      "venta": 1580.0
+    },
+    {
+      "nombre": "Ualá",
+      "venta": 1580.0
     }
   ]
 };
