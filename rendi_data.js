@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "19/11/2026 00:45",
+  "actualizado": "19/11/2026 19:19",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -120,50 +120,50 @@ window.RENDI_DATA = {
     }
   ],
   "dolar_oficial": {
-    "compra": 1530,
-    "venta": 1580,
-    "fecha": "2026-11-18T18:00:00.000Z"
+    "compra": 1535,
+    "venta": 1585,
+    "fecha": "2026-11-19T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
       "nombre": "Balanz",
-      "venta": 1570.0
-    },
-    {
-      "nombre": "Banco Hipotecario",
-      "venta": 1574.0
+      "venta": 1575.0
     },
     {
       "nombre": "Banco Supervielle",
       "venta": 1575.5
     },
     {
-      "nombre": "Banco Ciudad",
-      "venta": 1580.0
-    },
-    {
-      "nombre": "Banco Nación",
-      "venta": 1580.0
-    },
-    {
-      "nombre": "Banco Provincia",
-      "venta": 1580.0
-    },
-    {
-      "nombre": "Cocos Bank",
-      "venta": 1580.0
+      "nombre": "Banco Hipotecario",
+      "venta": 1579.0
     },
     {
       "nombre": "ICBC",
       "venta": 1580.0
     },
     {
-      "nombre": "Reba",
-      "venta": 1580.0
+      "nombre": "Banco Ciudad",
+      "venta": 1585.0
+    },
+    {
+      "nombre": "Banco Nación",
+      "venta": 1585.0
+    },
+    {
+      "nombre": "Banco Provincia",
+      "venta": 1585.0
+    },
+    {
+      "nombre": "Banco Bica",
+      "venta": 1589.0
     },
     {
       "nombre": "Bancor",
-      "venta": 1585.0
+      "venta": 1590.0
+    },
+    {
+      "nombre": "Brubank",
+      "venta": 1590.0
     }
   ]
 };
