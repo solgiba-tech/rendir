@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "19/11/2026 22:06",
+  "actualizado": "20/11/2026 00:39",
   "billeteras": [
     {
       "nombre": "Fiwind",
