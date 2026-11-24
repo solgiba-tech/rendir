@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "24/11/2026 03:17",
+  "actualizado": "24/11/2026 20:33",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -24,6 +24,12 @@ window.RENDI_DATA = {
       "nombre": "Claro Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
       "tna": 20.94404761904762,
+      "tipo": "billetera"
+    },
+    {
+      "nombre": "Mercado Pago",
+      "producto": "FCI Money Market (TNA estimada, base mensual)",
+      "tna": 20.353095238095236,
       "tipo": "billetera"
     },
     {
@@ -114,9 +120,9 @@ window.RENDI_DATA = {
     }
   ],
   "dolar_oficial": {
-    "compra": 1550,
-    "venta": 1600,
-    "fecha": "2026-11-20T18:55:00.000Z"
+    "compra": 1565,
+    "venta": 1615,
+    "fecha": "2026-11-24T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
@@ -129,35 +135,35 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Balanz",
-      "venta": 1588.0
-    },
-    {
-      "nombre": "Banco Ciudad",
-      "venta": 1595.0
-    },
-    {
-      "nombre": "Banco Nación",
-      "venta": 1600.0
-    },
-    {
-      "nombre": "Banco Provincia",
-      "venta": 1600.0
-    },
-    {
-      "nombre": "Bancor",
-      "venta": 1600.0
+      "venta": 1603.0
     },
     {
       "nombre": "Banco Hipotecario",
-      "venta": 1604.0
+      "venta": 1614.0
     },
     {
-      "nombre": "Banco Bica",
-      "venta": 1605.0
+      "nombre": "Banco Ciudad",
+      "venta": 1615.0
+    },
+    {
+      "nombre": "Banco Nación",
+      "venta": 1615.0
+    },
+    {
+      "nombre": "Banco Provincia",
+      "venta": 1615.0
     },
     {
       "nombre": "Banco Columbia",
-      "venta": 1606.0
+      "venta": 1619.0
+    },
+    {
+      "nombre": "Banco Bica",
+      "venta": 1620.0
+    },
+    {
+      "nombre": "Banco Santa Cruz",
+      "venta": 1620.0
     }
   ]
 };
