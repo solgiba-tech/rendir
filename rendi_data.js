@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "25/11/2026 01:59",
+  "actualizado": "25/11/2026 20:11",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -11,25 +11,7 @@ window.RENDI_DATA = {
     {
       "nombre": "Lemon Cash",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.7394,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Ualá",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.447400000000002,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Claro Pay",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.673599999999997,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Mercado Pago",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.2502,
+      "tna": 21.773653846153845,
       "tipo": "billetera"
     },
     {
@@ -47,13 +29,13 @@ window.RENDI_DATA = {
     {
       "nombre": "Personal Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.6808,
+      "tna": 19.667884615384615,
       "tipo": "billetera"
     },
     {
       "nombre": "Cocos",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.2428,
+      "tna": 19.120384615384616,
       "tipo": "billetera"
     }
   ],
@@ -71,6 +53,12 @@ window.RENDI_DATA = {
       "tipo": "banco"
     },
     {
+      "nombre": "Banco Supervielle S.A.",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 21.34,
+      "tipo": "banco"
+    },
+    {
       "nombre": "Banco De La Nacion Argentina",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 21.05,
@@ -84,12 +72,6 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Banco Credicoop Cooperativo Limitado",
-      "producto": "Plazo fijo 30 días (TEA)",
-      "tna": 20.15,
-      "tipo": "banco"
-    },
-    {
-      "nombre": "Banco Supervielle S.A.",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 20.15,
       "tipo": "banco"
@@ -120,9 +102,9 @@ window.RENDI_DATA = {
     }
   ],
   "dolar_oficial": {
-    "compra": 1565,
-    "venta": 1615,
-    "fecha": "2026-11-24T18:00:00.000Z"
+    "compra": 1580,
+    "venta": 1630,
+    "fecha": "2026-11-25T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
@@ -135,35 +117,35 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Balanz",
-      "venta": 1603.0
+      "venta": 1620.0
     },
     {
       "nombre": "Banco Hipotecario",
-      "venta": 1614.0
+      "venta": 1624.0
     },
     {
       "nombre": "Banco Ciudad",
-      "venta": 1615.0
+      "venta": 1630.0
     },
     {
       "nombre": "Banco Nación",
-      "venta": 1615.0
+      "venta": 1630.0
     },
     {
       "nombre": "Banco Provincia",
-      "venta": 1615.0
-    },
-    {
-      "nombre": "Banco Columbia",
-      "venta": 1619.0
-    },
-    {
-      "nombre": "Banco Bica",
-      "venta": 1620.0
+      "venta": 1630.0
     },
     {
       "nombre": "Banco Santa Cruz",
-      "venta": 1620.0
+      "venta": 1630.0
+    },
+    {
+      "nombre": "Banco Columbia",
+      "venta": 1633.0
+    },
+    {
+      "nombre": "Banco Bica",
+      "venta": 1635.0
     }
   ]
 };
