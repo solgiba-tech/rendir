@@ -1,35 +1,11 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "26/11/2026 01:17",
+  "actualizado": "26/11/2026 20:07",
   "billeteras": [
     {
       "nombre": "Fiwind",
       "producto": "Cuenta remunerada (via comparatasas.ar)",
       "tna": 25.0,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Lemon Cash",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.773653846153845,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Ualá",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.46480769230769,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Claro Pay",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.63653846153846,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Mercado Pago",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.229423076923077,
       "tipo": "billetera"
     },
     {
@@ -42,18 +18,6 @@ window.RENDI_DATA = {
       "nombre": "Naranja X",
       "producto": "Cuenta remunerada (via comparatasas.ar)",
       "tna": 20.0,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Personal Pay",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.667884615384615,
-      "tipo": "billetera"
-    },
-    {
-      "nombre": "Cocos",
-      "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.120384615384616,
       "tipo": "billetera"
     }
   ],
@@ -120,9 +84,9 @@ window.RENDI_DATA = {
     }
   ],
   "dolar_oficial": {
-    "compra": 1580,
-    "venta": 1630,
-    "fecha": "2026-11-25T18:00:00.000Z"
+    "compra": 1575,
+    "venta": 1625,
+    "fecha": "2026-11-26T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
@@ -130,40 +94,40 @@ window.RENDI_DATA = {
       "venta": 1575.5
     },
     {
-      "nombre": "ICBC",
-      "venta": 1580.0
+      "nombre": "Balanz",
+      "venta": 1615.0
     },
     {
-      "nombre": "Balanz",
-      "venta": 1620.0
+      "nombre": "Banco del Sol",
+      "venta": 1615.0
     },
     {
       "nombre": "Banco Hipotecario",
-      "venta": 1624.0
+      "venta": 1619.0
     },
     {
       "nombre": "Banco Ciudad",
-      "venta": 1630.0
+      "venta": 1625.0
     },
     {
       "nombre": "Banco Nación",
-      "venta": 1630.0
+      "venta": 1625.0
     },
     {
       "nombre": "Banco Provincia",
-      "venta": 1630.0
+      "venta": 1625.0
     },
     {
       "nombre": "Banco Santa Cruz",
-      "venta": 1630.0
+      "venta": 1625.0
     },
     {
-      "nombre": "Banco Columbia",
-      "venta": 1633.0
+      "nombre": "Brubank",
+      "venta": 1625.0
     },
     {
-      "nombre": "Banco Bica",
-      "venta": 1635.0
+      "nombre": "ICBC",
+      "venta": 1625.0
     }
   ]
 };
