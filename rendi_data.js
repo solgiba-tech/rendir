@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "27/11/2026 01:26",
+  "actualizado": "27/11/2026 19:47",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -89,6 +89,12 @@ window.RENDI_DATA = {
       "tipo": "banco"
     },
     {
+      "nombre": "Banco Macro S.A.",
+      "producto": "Plazo fijo 30 días (TEA)",
+      "tna": 20.45,
+      "tipo": "banco"
+    },
+    {
       "nombre": "Banco Credicoop Cooperativo Limitado",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 20.15,
@@ -96,12 +102,6 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Banco De Galicia Y Buenos Aires S.A.",
-      "producto": "Plazo fijo 30 días (TEA)",
-      "tna": 19.86,
-      "tipo": "banco"
-    },
-    {
-      "nombre": "Banco Macro S.A.",
       "producto": "Plazo fijo 30 días (TEA)",
       "tna": 19.86,
       "tipo": "banco"
@@ -122,7 +122,7 @@ window.RENDI_DATA = {
   "dolar_oficial": {
     "compra": 1575,
     "venta": 1625,
-    "fecha": "2026-11-26T18:00:00.000Z"
+    "fecha": "2026-11-27T18:00:00.000Z"
   },
   "dolar_entidades": [
     {
@@ -135,11 +135,23 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Banco del Sol",
-      "venta": 1615.0
+      "venta": 1619.0
     },
     {
       "nombre": "Banco Hipotecario",
       "venta": 1619.0
+    },
+    {
+      "nombre": "Cocos Bank",
+      "venta": 1620.0
+    },
+    {
+      "nombre": "Reba",
+      "venta": 1620.0
+    },
+    {
+      "nombre": "Ualá",
+      "venta": 1622.0
     },
     {
       "nombre": "Banco Ciudad",
@@ -151,18 +163,6 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Banco Provincia",
-      "venta": 1625.0
-    },
-    {
-      "nombre": "Banco Santa Cruz",
-      "venta": 1625.0
-    },
-    {
-      "nombre": "Brubank",
-      "venta": 1625.0
-    },
-    {
-      "nombre": "ICBC",
       "venta": 1625.0
     }
   ]
