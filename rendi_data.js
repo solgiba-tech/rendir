@@ -1,6 +1,6 @@
 // Generado automáticamente por rendi_ranking.py - no editar a mano.
 window.RENDI_DATA = {
-  "actualizado": "27/11/2026 19:47",
+  "actualizado": "27/11/2026 22:50",
   "billeteras": [
     {
       "nombre": "Fiwind",
@@ -11,25 +11,25 @@ window.RENDI_DATA = {
     {
       "nombre": "Lemon Cash",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.791851851851852,
+      "tna": 21.821785714285713,
       "tipo": "billetera"
     },
     {
       "nombre": "Ualá",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 21.46740740740741,
+      "tna": 21.46982142857143,
       "tipo": "billetera"
     },
     {
       "nombre": "Claro Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.602222222222224,
+      "tna": 20.583392857142858,
       "tipo": "billetera"
     },
     {
       "nombre": "Mercado Pago",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 20.21018518518519,
+      "tna": 20.19232142857143,
       "tipo": "billetera"
     },
     {
@@ -47,13 +47,13 @@ window.RENDI_DATA = {
     {
       "nombre": "Personal Pay",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.655925925925928,
+      "tna": 19.657857142857143,
       "tipo": "billetera"
     },
     {
       "nombre": "Cocos",
       "producto": "FCI Money Market (TNA estimada, base mensual)",
-      "tna": 19.020555555555557,
+      "tna": 18.953928571428573,
       "tipo": "billetera"
     }
   ],
@@ -142,16 +142,12 @@ window.RENDI_DATA = {
       "venta": 1619.0
     },
     {
-      "nombre": "Cocos Bank",
-      "venta": 1620.0
+      "nombre": "Ualá",
+      "venta": 1619.0
     },
     {
       "nombre": "Reba",
       "venta": 1620.0
-    },
-    {
-      "nombre": "Ualá",
-      "venta": 1622.0
     },
     {
       "nombre": "Banco Ciudad",
@@ -163,6 +159,10 @@ window.RENDI_DATA = {
     },
     {
       "nombre": "Banco Provincia",
+      "venta": 1625.0
+    },
+    {
+      "nombre": "ICBC",
       "venta": 1625.0
     }
   ]
